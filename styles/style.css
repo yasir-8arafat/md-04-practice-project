@@ -271,3 +271,61 @@
     flex-wrap: wrap;
 }
 /* portfolio section complete */
+
+/* sub-footer section design start */
+.sub-foot{
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 95px 252px;
+    margin: 100px 166px;
+    border-radius: 16px;
+}
+.sub-foot button{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    padding: 24px 56px;
+    background-color: rgba(255, 0, 0, 1);
+    border: none;
+    border-radius: 0 50px 50px 0;
+    margin-left: -10px;
+}
+.sub-foot input{
+    font-size: 18px;
+    font-weight: 400px;
+    padding: 25px 30px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    width: 50%;
+    border-radius: 50px 0 0 50px;
+    margin-right: -10px;
+}
+.sub-foot-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+/* sub-footer section design end */
+
+/* real footer section design start */
+.foot{
+    background-color: rgba(7, 2, 17, 1);
+    padding: 142px 166px;
+    border-radius: 10px;
+}
+.foot-top{
+    display: flex;
+    justify-content: space-between;
+}
+.ft-tp-txt{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+.foot-mid{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
